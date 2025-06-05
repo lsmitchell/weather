@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Report</title>
+</head>
+<body>
+  <form action="/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+  </form>
+  <p>{{ errors }}</p>
+  <p>{{ weather }}</p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[project]
+name = "weatherApp"
+version = "0.1.0"
+description = "An app to get basic weather data."
+readme = "README.md"
+dependencies = [
+    "django>=5.2.2",
+    "pytest>=8.4.0",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.4",
+    "responses>=0.25.7",
+]
+
