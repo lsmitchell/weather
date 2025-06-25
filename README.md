@@ -12,13 +12,19 @@ To run the project, you'll need an API key to call the weatherapi. As of this wr
 
 ```WEATHER_API_KEY=<your API key>```
 
+To setup the database (used to save the API responses) run:
+
+```python manage.py makemigrations weatherDisplay```
+
+```python manage.py migrate```
+
 To run the server, run
 
 `python manage.py runserver`
 
 Once the server is started, you can access the main page by going to
 
-```http://127.0.0.1:8000/```
+```http://localhost:8000/```
 
 ## Tests
 
@@ -26,4 +32,4 @@ To run the tests, run
 
 `pytest weatherDisplay/tests/`
 
-The tests use pytest. Run the tests by calling `pytest weatherDisplay/tests/`
+The tests use pytest and the django testing framework.
