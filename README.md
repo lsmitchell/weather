@@ -22,9 +22,13 @@ To run the server, run
 
 `python manage.py runserver`
 
-Once the server is started, you can access the main page by going to
+To run the frontend, run
 
-```http://localhost:8000/```
+`npm run dev`
+
+Once the server and frontend is started, you can access the main page by going to
+
+```http://localhost:3000/```
 
 ## Tests
 
